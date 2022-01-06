@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  
+
+  <title>FKJ</title>
+</head>
+<body class="body">
+
+  <div class="layout">
+
+    <div class="layout-block">
+      <div class="layout-sidebar">
+        <div class="sidebar">
+          <header class="logo">
+            <a href="/" aria-current="page">
+              <img src="./images/spotifu-logo.png" width="112" height="32" alt="Logo Spotifu">
+            </a>
+          </header>
+          <nav class="menu" aria-label="Principal">
+            <ul class="menu-list">
+              <li class="menuItem is-active">
+                <a href="/" class="link" aria-current="page">
+                  <i class="icon-home" aria-hidden="true"></i>
+                  <span>Inicio</span>
+                </a>
+              <li class="menuItem">
+                <a href="/" class="link">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <span>Buscar</span>
+                </a>
+              <li class="menuItem">
+                <a href="/" class="link">
+                  <i class="icon-creditCard" aria-hidden="true"></i>
+                  <span>Premium</span>
+                </a>
+              </li>
+              
+            </ul>
+          </nav>
+          <nav class="list" aria-labelledby="library-navigation"> 
+            <h2 class="list-title" id="library-navigation">Tu Biblioteca</h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <a href="#" class="link">Creado para ti</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Escuchado recientemente</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Tus me gusta</a>
+              </li>
+            </ul>
+          </nav>
+          <nav class="list"  aria-labelledby="playlist-navigation">
+            <h2 class="list-title" id="playlist-navigation">Playlist</h2>
+            <ul class="list-content">
+              <li class="list-item">
+                <a href="#" class="link">Aguita de coco</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">C+R</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Catch and Release</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">FKJ</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Good Mood</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Motherflowers</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">My Shazam Tracks</a>
+              </li>
+              <li class="list-item">
+                <a href="#" class="link">Seasick Dreaming</a>
+              </li>
+              <li class="list-item">
+                <span class="elipsis">
+                  <a href="#" class="link">Seasick Dreaming for longer phrases and make it shorter</a>
+                </span>
+                </li>
+            </ul>
+          </nav>
+        </div>   
+      </div><!-- Layout Sidebar-->
+      
+    
+      <div class="layout-main">
+        <div class="page">
+          <div class="sticky">
+            <div class="page-block-album">
+
+              <header class="header-album" aria-label="Barra Superior y Menu">
+                <div class="navigation">
+                  <button class="navigation-prev" aria-label="Volver" title="Volver">
+                    <i class="icon-arrowLeft" aria-hidden="true"></i>
+                  </button>
+                  <button class="navigation-next" disabled aria-label="Avanzar" title="Avanzar">
+                    <i class="icon-arrowRight" aria-hidden="true"></i>
+                  </button>
+                </div><!-- Navigation -->
+
+                <form class="search" role="search" aria-label="Buscar por Artistas">
+                  <i class="icon-search" aria-hidden="true"></i>
+                  <input type="search"  placeholder="Buscar por Artistas" >
+                </form><!-- Search  -->
+
+                
+                <div class="perfil">
+                  <img src="./images/perfil.jpg" heigh="28px" width="28px" alt="Imagen de Perfil" title="Imagen de perfil">
+                  <p class="nombrePerfil">Pedro Franceschi</p>
+                  <button class="perfilBtn"><i class="icon-addPlus"></i></button>
+            </div>
+              </header>
+            </div><!-- page block  -->
+          </div><!-- sticky  -->
+
+          
+            <div class="hero">
+              <img class="heroCard" src="./images/fkj1.jpg" width="312" height="183" alt="FKJ Album Cover" title="FKJ Album Cover">
+              <div class="heroDetails">
+                  <h1 class="heroDetails-title">French Kiwi Juice</h1>
+                  <p class="heroDetails-album">Take Off</p>
+                  <button class="reproducirbtn">Reproducir</button>
+              </div>
+            </div><!-- Hero -->
+
+            <div class="filtro">
+              <button class="searchbtn">
+                  <i class="icon-search"></i>Filtrar
+              </button>
+          </div>
+          
+          
+          <div class="albumLista">
+              <table>
+                  <tr>
+                      <th class="tablaPlay"></th>
+                      <th class="tablaMegusta"></th>
+                      <th class="tablaTitulo">Titulo</th>
+                      <th class="tablaArtista">Artista</th>
+                      <th class="tablaAlbum">Album</th>
+                      <th class="tablaFecha"><i class="icon-calendar"></i></th>
+                      <th class="tablaDuracion"><i class="icon-clock"></i></th>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Vibin' Out</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Canguu</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Blessed</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Die With a Smile</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Lying Together ( Interlude )</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Joy</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Why are There Boundries</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Instant Need</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  <tr>
+                      <td class="icon"><i class="icon-play"></i></td>
+                      <td class="icon"><i class="icon-heart"></i></td>
+                      <td>Unchained</td>
+                      <td>FKJ</td>
+                      <td>French Kiwi Juice</td>
+                      <td>2021-02-10</td>
+                      <td>3:25</td>
+                  </tr>
+                  
+              </table>
+          </div>
+
+        </div><!-- Page  -->
+      </div><!-- Layout main-->
+    </div><!-- Layout block-->
+    
+    <div class="layout-block">
+      <footer class="layout-bottom">
+        <div class="player">
+          <div class="player-nowPlaying">
+            <div class="nowPlaying">
+              <div class="nowPlaying-cover">
+                <img src="./images/img-3.png" width="56" height="56" alt="Portada" title="Portada">
+              </div>
+              
+              <div class="nowPlaying-details">
+                  <div class="nowPlaying-description">
+                    <a href="#song" class="nowPlaying-title">
+                      Grand Escape ( feat. Tokio Miura)
+                    </a>
+                    <a href="#RADWIMPS" class="nowPlaying-artist">
+                      RADWIMPS, Tokio Mura
+                    </a>
+                  </div><!--  noPlaying-description  -->
+          
+                  <div class="nowPlaying-actions">
+                    <button class="player-control" role="switch" aria-checked="false" aria-label="Guardar en Biblioteca" title="Guardar en Biblioteca">
+                      <i class="icon-heart" id=""  aria-hidden="true"></i>
+                    </button>
+                  </div><!--  nowPlaying-actions-->
+              </div><!--  nowPlaying-details  -->
+            </div><!--  nowPlaying  -->
+          </div><!-- player-nowPlaying-->
+          
+          <div class="player-playerControls">
+            <div class="playerControls">
+              <div class="playerControls-buttons" aria-label="Controles de reproduccion">
+                <button class="buttonIcon" aria-label="Anterior" title="Anterior">
+                  <i class="icon-prev" aria-hidden="true"></i>
+                </button>
+                <button class="buttonIcon is-white" aria-label="Reporoducir" title="Reproducir">
+                  <i class="icon-play" aria-hidden="true"></i>
+                </button>
+                <button class="buttonIcon" aria-label="Siguiente" title="Siguiente">
+                  <i class="icon-next" aria-hidden="true"></i>
+                </button>
+              </div> <!--  playerControls-buttons  -->
+          
+              <div class="playerPlayback" >
+                <span class="playerPlayback-progressTime">01:40</span>
+                  <div class="playerPlayback-slider">
+                    <div class="slider">
+                      <div class="slider-progress">
+                        <button aria-label="Progreso de reproduccion" class="slider-button"></button>
+                      </div><!-- slider-progress -->
+                    </div><!-- slider -->
+                  </div><!--   playerPlayback-slider  -->
+                <span class="playerPlayback-progressTime">4:00</span>
+              </div>  <!--   playerPlayback  --> 
+            </div><!--   playerControls   -->
+          </div><!--  player-playerControls  -->
+        
+          <div class="player-playerVolume">
+            <div class="playerVolumen">
+              <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+                <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen Alto"></i>
+              </button>
+          
+              <div class="playerVolumen-slider">
+                <div class="slider">
+                  <div class="slider-progress">
+                    <button aria-label="Progreso de reproduccion" class="slider-button"></button>
+                  </div><!-- slider-progress -->
+                </div><!-- slider -->
+              </div><!--   playerVolumen-slider   -->
+            </div><!--    playerVolumen   -->
+          </div><!--  player-playerVolume   -->
+        </div><!-- PLAYER  -->
+      </footer>
+    </div><!-- Layout block-->
+  </div><!-- Layout  -->
+  
+</body>
+</html>
+
+
+

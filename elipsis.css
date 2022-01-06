@@ -1,0 +1,6 @@
+.elipsis > * {
+    display: block;
+    white-space: nowrap;/* origina desbordamiento*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

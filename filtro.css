@@ -1,0 +1,10 @@
+.searchbtn {
+    color: var(--gray10);
+    background: transparent;
+    border: none;
+    font: var(--button);
+}
+
+.searchbtn i {
+    padding-inline-end: .5rem;
+}

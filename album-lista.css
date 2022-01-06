@@ -1,0 +1,66 @@
+
+table {
+    width: 100%;
+    
+}
+
+th {
+    font: var(--small);
+    color: var(--gray10);
+    text-align: left;
+    text-transform: uppercase;
+    padding-inline: 0.625rem;
+    padding-block: 0.875rem;
+    margin: 0;
+}
+
+td {
+    font: var(--baseFont);
+    color: var(--white);
+    padding-inline: 0.625rem;
+    padding-block: 0.687rem;
+}
+
+.tablaPlay{
+    inline-size: 2.75rem;
+    block-size: 2.75rem;
+    
+    
+}
+
+.tablaMegusta {
+    inline-size: 2.375rem;
+    block-size: 2.75rem;
+}
+
+.tablaTitulo {
+    inline-size: 20.18rem;
+    block-size: 2.75rem;
+}
+
+.tablaArtista {
+    inline-size: 17rem;
+    block-size: 2.75rem;
+}
+
+.tablaAlbum {
+    inline-size: 17.06rem;
+    block-size: 2.75rem;
+}
+
+.tablaFecha {
+    font: var(--headline2);
+    inline-size: 5.625rem;
+    block-size: 2.75rem;
+}
+
+.tablaDuracion {
+    font: var(--headline2);
+    inline-size: 2.93rem;
+    block-size: 2.75rem;
+}
+
+.icon {
+    text-align: center;
+    cursor: pointer;
+}

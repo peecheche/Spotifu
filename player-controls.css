@@ -1,0 +1,11 @@
+.playerControls {
+    display: flex;
+    flex-direction: column; /* Para crear espaciado entre boton y barra */
+    gap: .25rem;
+}
+
+.playerControls-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}

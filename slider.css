@@ -1,0 +1,48 @@
+.slider {
+    
+    background-color: rgba(255, 255, 255, .2);
+    block-size: .25rem;
+    border-radius: .5rem;
+}
+
+.slider-progress {
+    block-size: inherit;
+    border-radius: inherit;
+    inline-size: 20%;
+    background: var(--white);
+/* para poder movilizar el boton usar position relative */
+    position: relative;
+}
+
+.slider:hover .slider-progress {
+    background: var(--primary);
+}
+
+
+.slider-button {
+    background: var(--white);
+/* para hacerlo circular */
+    padding: 0;
+    border: 0;
+/* tamano con relacion al padre */
+    block-size: 200%;
+    border-radius: 50%;
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+    aspect-ratio: 1/1; /* cuadrado */
+
+/*      para poder movilizar el boton usar position absolute
+        crea dependencia a el padre ( slider-progress )
+        y left para colocarlo en el actual progress
+ */
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    display: none;
+} 
+
+.slider:hover .slider-button {
+    display: block;
+}
+

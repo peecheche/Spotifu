@@ -1,0 +1,37 @@
+.perfil{
+    display: flex;
+    align-items: center;
+    background: var(--gray60);
+    inline-size: 11.25rem;
+    block-size: 2rem;
+    border-radius: 1rem;
+    
+    
+}
+
+.perfil img {
+    border-radius: 50%;
+    inline-size: 1.75rem;
+    block-size: 1.75rem;
+    object-fit: cover;
+    padding-inline-start: .125rem;
+    padding-inline-end: .25rem;
+
+}
+
+.nombrePerfil {
+    color: var(--white);
+    font: var(--baseFont);
+    padding-inline-end: .25rem;
+    margin: 0;
+}
+
+.perfilBtn {
+    border: none;
+    background: none;
+    color: var(--white);
+    font: var(--small);
+    padding-inline-end: 0.625rem;
+    margin: 0;
+
+}

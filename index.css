@@ -1,0 +1,54 @@
+@import './fonts.css';
+@import './icons.css';
+@import './body.css';
+@import './link.css';
+@import './button-icon.css';
+@import './side-bar.css';
+@import './elipsis.css';
+@import './player.css';
+@import './page.css';
+@import './layout.css';
+@import './scrollbar.css';
+@import '/hero-album.css';
+@import '/filtro.css';
+@import '/album-lista.css';
+@import './perfil.css';
+
+
+
+:root { 
+  font-size: 14px;
+  --primary: #00b050; 
+  --white: #ffffff; 
+  --gray10: #b3b3b3; 
+  --gray20: #737373; 
+  --gray30: #282828; 
+  --gray40: #181818; 
+  --gray50: #121212; 
+  --gray60: #000000; 
+
+  --baseFontFamily: Avenir,Helvetica, sans-serif;
+
+  --headline1: bold 2rem/normal Avenir; 
+  --headline2: bold 1.5rem/1.75rem Avenir; 
+
+  --baseFont: normal 0.875rem/1.375rem Avenir; 
+  --baseFontBold: bold 0.875rem/1.375rem Avenir;
+
+  --button: normal 0.875rem/1rem Avenir; 
+  
+  --small: normal 0.75rem/normal Avenir; 
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    font-size: 16px;
+  }
+
+}
+@media screen and (min-width: 1367px) {
+  :root {
+    font-size: 18px;
+  }
+
+}
