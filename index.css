@@ -9,9 +9,9 @@
 @import './page.css';
 @import './layout.css';
 @import './scrollbar.css';
-@import '/hero-album.css';
-@import '/filtro.css';
-@import '/album-lista.css';
+@import './hero-album.css';
+@import './filtro.css';
+@import './album-lista.css';
 @import './perfil.css';
 
 
